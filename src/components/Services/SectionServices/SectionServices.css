@@ -1,0 +1,33 @@
+.serv h2 {
+    font: 1em "Poppins";
+    padding: 10px 0 20px;
+  }
+  .serv h3 {
+    font: 200 1em "Poppins";
+    color: #969595;
+  }
+  .serv p {
+    font: 200 1em "Poppins";
+    padding: 0 0 20px;
+  }
+  .serv span {
+    text-decoration: underline;
+  }
+  .serv img {
+    margin: 30px 0 0;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .services {
+      width: 45%;
+    }
+    .serv h1 {
+      padding: 30px 0 20px;
+    }
+    .servicesDesktop {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: auto;
+    }
+  }

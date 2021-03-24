@@ -1,0 +1,76 @@
+.menuBg {
+  width: 100%;
+  height: 100vh;
+  /* position: absolute; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(156, 150, 150, 0.2);
+}
+
+.mobileMenu-primary-enter {
+  position: absolute;
+  transform: translateX(-110%);
+}
+.mobileMenu-primary-enter-active {
+  transform: translateX(0%);
+  transition: all 2000 ease-in-out ;
+}
+.mobileMenu-primary-exit {
+    position: absolute;
+}
+.mobileMenu-primary-exit-active {
+  transform: translateX(-110%);
+  transition: all 2000 ease-in-out ;
+}
+
+.mobileMenu {
+  height: 100vh;
+  width: 70%;
+  background: #e0e0e0;
+  text-align: right;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 80px 50px 0 0;
+  z-index: 999;
+}
+.mobileMenu li {
+  padding: 20px 0;
+}
+.mobileMenu li a {
+  color: var(--text);
+  font: 200 1.2em "Poppins";
+}
+
+.mobileMenu li a:hover {
+  text-decoration: none;
+  color: #c7c7c7;
+}
+
+@media screen and (min-width: 576px) {
+  .mobileMenu {
+    height: initial;
+    width: initial;
+    background: initial;
+    text-align: initial;
+    position: initial;
+    padding: initial;
+    display: flex;
+  }
+  .mobileMenu li {
+    padding: 0 0 0 20px;
+  }
+  .mobileMenu li a {
+    color: var(--text);
+    font: 200 .9em "Poppins";
+  }
+  .menuBg {
+    position: initial;
+    background: initial;
+    width: initial;
+    height: initial;
+    top: initial;
+    left: initial;
+  }
+}

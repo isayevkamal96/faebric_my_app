@@ -1,0 +1,43 @@
+
+#logo {
+    width: 180px;
+    padding: 0 0 0 20px;
+}
+#burger {
+    padding: 0 20px 0 0;
+}
+.hamburger-react {
+    z-index: 9999;
+    color: var(--text);
+    position: fixed;
+}
+header {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#desktop {
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+    #burger {
+        display: none;
+    }
+    #desktop {
+        display: block;
+    }
+    #logo {
+        padding: initial;
+    }
+    header {
+        width: 60%;
+    }
+}

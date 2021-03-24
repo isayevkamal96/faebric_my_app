@@ -1,0 +1,13 @@
+.members h1 {
+    font: 1em 'Poppins';
+    padding: 40px 0 0;
+}
+.membersInfo {
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .membersInfo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

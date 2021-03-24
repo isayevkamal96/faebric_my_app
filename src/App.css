@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  --text: #000b5c;
+--red: #eb5c5e;
+}
+.container2, .container3 {
+  width: 90%;
+  margin: auto;
+}
+.App {
+  color: var(--text);
+}
+
+
+@media screen and (min-width: 576px) {
+.container {
+  width: 60%;
+  margin: auto;
+}
+.container2 {
+  width: 70%;
+}
+.container3 {
+  width: initial;
+  margin: initial;
+}
+}

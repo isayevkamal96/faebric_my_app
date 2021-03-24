@@ -1,0 +1,55 @@
+.collaborative h1 {
+    font: 1em 'Poppins';
+    padding: 30px 0 0;
+}
+.collaborative p {
+    font: 200 1em 'Poppins';
+    padding: 30px 0 0;
+}
+.collaborative a {
+    text-decoration: underline;
+    color: var(--text);
+    padding: 0 5px 0;
+}
+.cover {
+    position: relative;
+    /* height: 450px; */
+    height: 250px;
+    margin: 30px 0;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+}
+.cover img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.cover iframe {
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+}
+.overlay {
+    position: absolute;
+    background: rgba(112, 112, 112, .3);
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+    display: flex;
+}
+#play {
+    margin: auto;
+    color: #fff;
+    font-size: 2.4em;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+    #play {
+        font-size: 3em;
+    }
+    .cover {
+        height: 450px;
+    }
+}

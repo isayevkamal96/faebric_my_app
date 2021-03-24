@@ -1,0 +1,23 @@
+.servicePage {
+  padding: 75px 0 0;
+}
+
+.servicePage h1 {
+  font: 200 1.3em "Poppins";
+  padding: 10px 0;
+}
+.servicePage p, .servicePage h6 {
+  font: 200 1em "Poppins";
+}
+.servicePage h6 {
+        padding: 10px 0 30px;
+}
+.servicePage a {
+  font: 1em "Poppins";
+  color: var(--text);
+}
+#Roy, #Wolter {
+        padding: 0 0 30px;
+}
+
+

@@ -1,0 +1,24 @@
+.ourApproach h1 {
+    font: 1em 'Poppins';
+    padding: 20px 0;
+  }
+.ourApproach h3 {
+    font: 200 1em "Poppins";
+    color: #969595;
+    font-style: italic;
+  }
+  .ourApproach p {
+    font: 200 1em "Poppins";
+    padding: 0 0 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+      .approach div {
+          width: 45%;
+      }
+    .approach {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+  }

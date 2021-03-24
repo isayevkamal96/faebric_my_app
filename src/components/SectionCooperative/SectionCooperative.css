@@ -1,0 +1,11 @@
+.cooperative h1 {
+    font: 1em 'Poppins';
+    padding: 20px 0 0;
+}
+.cooperative p {
+    font: 200 1em 'Poppins';
+    padding: 20px 0 0;
+}
+.cooperative span {
+    font-style: italic;
+}
