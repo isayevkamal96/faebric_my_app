@@ -5,7 +5,7 @@ import './CasesInsights.css'
 
 function CasesInsights() {
     return (
-        <div>
+        <div className="container3">
             <SectionCasesInsights />
         </div>
     )

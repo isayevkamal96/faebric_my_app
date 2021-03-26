@@ -12,7 +12,7 @@ function SectionCollaborative() {
         : `https://video.wixstatic.com/video/786a64_0a1b8b62e6e54919977067a3a0c8c82f/1080p/mp4/file.mp4`; 
 
     return (
-        <section className='collaborative'>
+        <section className='collaborative container2'>
             <h1>Collaborative transformation with Music Thinking</h1>
             <p>At Faebric we apply Music Thinking and make use of the <a href="https://musicthinking.com/music-thinking-framework/" rel="noreferrer" target='_blank'>Music Thinking Framework</a>We approach challenges and solutions with the six cues. The cues are starting points for interventions and collaboration.</p>
             <div className='cover'>

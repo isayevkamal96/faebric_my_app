@@ -5,7 +5,7 @@ import './SectionFriends.css'
 
 function SectionFriends() {
     return (
-        <section className='friends'>
+        <section className='friends container2'>
             <h1>Friends and Collaborators</h1>
             <span><a href="https://www.linkedin.com/in/lisette-leuftink-6ba0316/" rel="noreferrer" target='_blank'>Lisette Leufthink</a> | </span>
             <span><a href="https://www.linkedin.com/in/louise-m%C3%B8lholt-990ab19/" rel="noreferrer" target='_blank'>Louise Molholt</a> | </span>

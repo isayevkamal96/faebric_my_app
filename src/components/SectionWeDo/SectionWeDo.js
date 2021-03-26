@@ -25,7 +25,7 @@ function SectionWeDo() {
         }
     ])
     return (
-        <section className='weDo'>
+        <section className='weDo container2'>
             <h1>What we do</h1>
             <p>In the rising societal challenges and technological opportunities change is imminent. This asks for adaptive strategies, customer-centric approaches and new ways of operating; within your organization or within your eco-system. But how do you take up this challenge?</p>
             <p>With collaboration and design, we help you to stay relevant. We translate your challenge into new opportunities for your business.</p>

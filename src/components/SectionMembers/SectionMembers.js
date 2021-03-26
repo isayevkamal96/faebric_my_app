@@ -56,7 +56,7 @@ function SectionMembers() {
         }
     ])
     return (
-        <section className='members'>
+        <section className='members container2'>
             <h1>The six Members</h1>
             <div className='membersInfo'>
                 {

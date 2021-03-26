@@ -7,7 +7,7 @@ import './Services.css'
 
 function Services() {
     return (
-        <div className='servicePage'>
+        <div className='servicePage container3'>
             <h1>Services</h1>
             <SectionServices />
             <SectionApproach />

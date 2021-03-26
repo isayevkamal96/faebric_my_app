@@ -14,6 +14,17 @@ function Header() {
         setExpand(false)
     }
 
+    // function prevScroll() {
+    //     document.body.classList.add('modal-open')
+    // }
+
+    const [scroll, setScroll] = useState(false)
+
+    function prevScroll() {
+        setScroll(!scroll)
+    }
+
+
     return (
         <>
             <header>
@@ -22,13 +33,17 @@ function Header() {
                         <img src={Logo} alt="logo" id='logo' />
                     </Link>
                 </div>
-                <div id='burger'>
+                <div id='burger' onClick={prevScroll}>
+                    {
+                        scroll ? document.body.classList.add('modal-open') : document.body.classList.remove('modal-open')
+                    }
                     <Hamburger toggled={expand} toggle={setExpand} />
                     {
                         expand ?
                             < >
                                 <Menu close={closeMenu} />
                                 <div className='menuBg' onClick={() => setExpand(false)}></div>
+
                             </>
                             :
                             null

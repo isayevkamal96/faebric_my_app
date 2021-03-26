@@ -24,7 +24,7 @@ function SectionClients() {
         }
     ])
     return (
-        <section className='clients'>
+        <section className='clients container2'>
             <h1>A selection of our clients</h1>
             <div className='icons'>
                 {

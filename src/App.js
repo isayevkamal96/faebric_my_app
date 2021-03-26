@@ -16,6 +16,7 @@ import './App.css';
 import {
   BrowserRouter,
   Route,
+  Switch
 } from "react-router-dom";
 
 function App() {
@@ -23,28 +24,24 @@ function App() {
     <div className="App container">
       <BrowserRouter>
         <Header />
-        <div>
-          <div className='container2'>
-            <Route exact path='/'>
-              <SectionWeAre />
-              <SectionWeDo />
-              <SectionOperate />
-              <SectionCollaborative />
-              <SectionClients />
-              <SectionCooperative />
-              <SectionMembers />
-              <SectionFriends />
-            </Route>
-          </div>
-          <div className='container3'>
-            <Route exact path='/services'>
-              <Services />
-            </Route>
-            <Route exact path='/casesInsights'>
-              <CasesInsights />
-            </Route>
-          </div>
-        </div>
+        <Switch>
+          <Route path='/services'>
+            <Services />
+          </Route>
+          <Route path='/casesInsights'>
+            <CasesInsights />
+          </Route>
+          <Route path='/'>
+            <SectionWeAre />
+            <SectionWeDo />
+            <SectionOperate />
+            <SectionCollaborative />
+            <SectionClients />
+            <SectionCooperative />
+            <SectionMembers />
+            <SectionFriends />
+          </Route>
+        </Switch>
       </BrowserRouter>
     </div>
   );

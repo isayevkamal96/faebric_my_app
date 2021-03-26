@@ -12,6 +12,9 @@
 .App {
   color: var(--text);
 }
+.modal-open {
+  overflow: hidden;
+}
 
 
 @media screen and (min-width: 576px) {
