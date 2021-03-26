@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/faebric_my_app/static/css/main.1c9f1d5d.chunk.css",
-    "main.js": "/faebric_my_app/static/js/main.104adaa2.chunk.js",
-    "main.js.map": "/faebric_my_app/static/js/main.104adaa2.chunk.js.map",
+    "main.css": "/faebric_my_app/static/css/main.b047fa31.chunk.css",
+    "main.js": "/faebric_my_app/static/js/main.39a0b2e4.chunk.js",
+    "main.js.map": "/faebric_my_app/static/js/main.39a0b2e4.chunk.js.map",
     "runtime-main.js": "/faebric_my_app/static/js/runtime-main.42dfe0df.js",
     "runtime-main.js.map": "/faebric_my_app/static/js/runtime-main.42dfe0df.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/faebric_my_app/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.ef5cf2f0.chunk.js": "/faebric_my_app/static/js/2.ef5cf2f0.chunk.js",
-    "static/js/2.ef5cf2f0.chunk.js.map": "/faebric_my_app/static/js/2.ef5cf2f0.chunk.js.map",
+    "static/js/2.ebb6dd53.chunk.js": "/faebric_my_app/static/js/2.ebb6dd53.chunk.js",
+    "static/js/2.ebb6dd53.chunk.js.map": "/faebric_my_app/static/js/2.ebb6dd53.chunk.js.map",
     "static/js/3.a0190463.chunk.js": "/faebric_my_app/static/js/3.a0190463.chunk.js",
     "static/js/3.a0190463.chunk.js.map": "/faebric_my_app/static/js/3.a0190463.chunk.js.map",
     "index.html": "/faebric_my_app/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/faebric_my_app/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.1c9f1d5d.chunk.css.map": "/faebric_my_app/static/css/main.1c9f1d5d.chunk.css.map",
-    "static/js/2.ef5cf2f0.chunk.js.LICENSE.txt": "/faebric_my_app/static/js/2.ef5cf2f0.chunk.js.LICENSE.txt",
+    "static/css/main.b047fa31.chunk.css.map": "/faebric_my_app/static/css/main.b047fa31.chunk.css.map",
+    "static/js/2.ebb6dd53.chunk.js.LICENSE.txt": "/faebric_my_app/static/js/2.ebb6dd53.chunk.js.LICENSE.txt",
     "static/media/Christof.660393bb.jpg": "/faebric_my_app/static/media/Christof.660393bb.jpg",
     "static/media/FaebricNetwork.2703cf02.png": "/faebric_my_app/static/media/FaebricNetwork.2703cf02.png",
     "static/media/KarmenKekic.ec871f1d.jpg": "/faebric_my_app/static/media/KarmenKekic.ec871f1d.jpg",
@@ -41,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.42dfe0df.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.ef5cf2f0.chunk.js",
-    "static/css/main.1c9f1d5d.chunk.css",
-    "static/js/main.104adaa2.chunk.js"
+    "static/js/2.ebb6dd53.chunk.js",
+    "static/css/main.b047fa31.chunk.css",
+    "static/js/main.39a0b2e4.chunk.js"
   ]
 }
